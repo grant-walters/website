@@ -6,6 +6,7 @@ body {
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	color: white;
 }
 
 code {
@@ -70,4 +71,6 @@ code {
 	box-shadow: 0px 3px 5px black;
 	width: 94%;
 	background-color: #141414;
+	color: white;
+	padding: 2px;
 }
