@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './main.css';
+import './index.css';
 import reportWebVitals from './reportWebVitals';
 import NavBar from './NavBar';
-import Header from './Header'
-import Page from './Page'
+import Header from './Header';
+import Page from './Page';
 
 class App extends React.Component {
 	constructor(props) {
@@ -26,6 +26,7 @@ class App extends React.Component {
 			<div>
 				<Header />
 				<NavBar pages={this.state.pages} current={this.state.current} onClick={this.handlePageClick} />
+				<Page page={this.state.pages[this.state.current]} />
 			</div>
 		);
 	}
