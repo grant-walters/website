@@ -13,7 +13,7 @@ class App extends React.Component {
 			current: 0,
 			pages: ['Home',"Resume","Projects","Contact"]
 		};
-		this.handleClick = this.handleClick.bind(this);
+		this.handlePageClick = this.handlePageClick.bind(this);
 	}
 
 	handlePageClick(i) {
