@@ -14,6 +14,8 @@ class Page extends React.Component {
 			case "Home":
 				return(<Home />);
 				break;
+			default:
+				return(<div lass='content'>404</div>);
 		}
 	}
 }
