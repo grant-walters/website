@@ -6,18 +6,15 @@ class Page extends React.Component {
 		super(props);
 		this.state = {
 			page: props.page,
-		}
+		};
 	}
 
-	switch({this.state.page}) {
-		case "Home":
-			render() {
-				return(
-					<Home />
-				)
-			};
-			break;
-
+	render () {
+		switch(this.state.page) {
+			case "Home":
+				return(<Home />);
+				break;
+		}
 	}
 }
 
