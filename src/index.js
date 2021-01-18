@@ -26,7 +26,6 @@ class App extends React.Component {
 			<div>
 				<Header />
 				<NavBar pages={this.state.pages} current={this.state.current} onClick={this.handlePageClick} />
-				<Page page={this.state.pages[this.state.current]} />
 			</div>
 		);
 	}
