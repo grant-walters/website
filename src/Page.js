@@ -3,16 +3,11 @@ import Home from "./Pages/Home"
 
 class Page extends React.Component {
 	constructor(props) {
-		console.log(props);
 		super(props);
-		this.state = {
-			page: props.page,
-		};
 	}
 
 	render () {
-		console.log("Rendering "+this.props.page);
-		switch(this.state.page) {
+		switch(this.props.page) {
 			case "Home":
 				return(<Home />);
 				break;
