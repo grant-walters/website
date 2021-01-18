@@ -10,8 +10,8 @@ class Page extends React.Component {
 	}
 
 	render () {
+		console.log("Rendering "+this.state.page);
 		switch(this.state.page) {
-			console.log("Rendering "+this.state.page);
 			case "Home":
 				return(<Home />);
 				break;
