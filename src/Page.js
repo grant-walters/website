@@ -10,6 +10,7 @@ class Page extends React.Component {
 	}
 
 	render () {
+		console.log("TEST")
 		switch(this.state.page) {
 			case "Home":
 				return(<Home />);
