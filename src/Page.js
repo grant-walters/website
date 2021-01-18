@@ -4,9 +4,12 @@ import Home from "./Pages/Home"
 class Page extends React.Component {
 	constructor(props) {
 		super(props);
+		this.state = {
+			page: props.page,
+		}
 	}
 
-	switch(props.page) {
+	switch(this.state.page) {
 		case "Home":
 			render() {
 				return(
