@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './main.css';
 import reportWebVitals from './reportWebVitals';
 import NavBar from './NavBar';
 import Header from './Header'
+import Page from './Page'
 
 class App extends React.Component {
 	constructor(props) {
@@ -15,7 +16,7 @@ class App extends React.Component {
 		this.handleClick = this.handleClick.bind(this);
 	}
 
-	handleClick(i) {
+	handlePageClick(i) {
 		this.setState({current: i});
 		this.render();
 	}
@@ -24,7 +25,8 @@ class App extends React.Component {
 		return (
 			<div>
 				<Header />
-				<NavBar pages={this.state.pages} current={this.state.current} onClick={this.handleClick} />
+				<NavBar pages={this.state.pages} current={this.state.current} onClick={this.handlePageClick} />
+				<Page page={this.state.pages[this.state.current]} />
 			</div>
 		);
 	}
