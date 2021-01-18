@@ -9,7 +9,7 @@ class Page extends React.Component {
 		}
 	}
 
-	switch(state.page) {
+	switch({this.state.page}) {
 		case "Home":
 			render() {
 				return(
