@@ -22,6 +22,7 @@ class App extends React.Component {
 	}
 
 	render () {
+		console.log(this.state.pages[this.state.current]);
 		return (
 			<div>
 				<Header />
