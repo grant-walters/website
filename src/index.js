@@ -18,7 +18,6 @@ class App extends React.Component {
 
 	handlePageClick(i) {
 		this.setState({current: i});
-		this.render();
 	}
 
 	render () {
