@@ -6,7 +6,7 @@ class Page extends React.Component {
 		super(props);
 	}
 
-	switch(this.props.page) {
+	switch(props.page) {
 		case "Home":
 			render() {
 				return(
