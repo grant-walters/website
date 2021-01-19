@@ -1,10 +1,6 @@
 import React from 'react';
 
 class NavBar extends React.Component {
-	constructor(props) {
-		super(props);
-	}
-
 	render() {
 		const pages = this.props.pages.map((name,step) => {
 			const btnClass = (step===this.props.current) ? "activePage" : "navButton";
