@@ -5,7 +5,7 @@ import prof_pic from "../prof_pic.jpg";
 class Home extends React.Component {
 	render() {
 		return (
-			<div>
+			<div className='body'>
 				<div className='content'>
 					<img src={prof_pic} alt="Portrait of Grant Walters" className="prof_pic" />
 					<p className='heading'>Grant Walters</p>
