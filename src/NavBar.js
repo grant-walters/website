@@ -19,7 +19,7 @@ class NavBar extends React.Component {
 class NavElement extends React.Component {
 	render() {
 		return (
-			<button className={this.props.className} key={this.props.id} onClick={this.props.onClick}>{this.props.name}</button>
+			<li key={this.props.id}><button className={this.props.className} key={this.props.id} onClick={this.props.onClick}>{this.props.name}</button></li>
 		);
 	}
 }
