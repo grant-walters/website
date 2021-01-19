@@ -4,7 +4,7 @@ import header from './header.png'
 class Header extends React.Component {
 	render() {
 		return (
-			<div class='header'>
+			<div className='header'>
 				<img src={header} alt='Grant Walters' className='headerimg'/>
 			</div>
 		);
