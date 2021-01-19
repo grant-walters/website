@@ -1,5 +1,5 @@
 import React from "react";
-import prof_pic from "./prof_pic.jpg";
+import prof_pic from "../prof_pic.jpg";
 
 class Home extends React.Component {
 	render() {
