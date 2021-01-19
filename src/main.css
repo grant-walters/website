@@ -32,6 +32,9 @@ code {
 	position: sticky;
 	box-shadow: 0px 3px 5px black;
 }
+.navbar:hover {
+	background-color: rgba(20,20,20,1);
+}
 
 .navButton {
 	height: 100%;
