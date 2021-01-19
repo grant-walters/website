@@ -6,10 +6,8 @@ class Page extends React.Component {
 		switch(this.props.page) {
 			case "Home":
 				return(<Home />);
-				break;
 			case "Resume":
 				return(<div lass='content'>404</div>);
-				break;
 			default:
 				return(<div lass='content'>404</div>);
 		}
