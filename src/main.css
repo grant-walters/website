@@ -103,7 +103,7 @@ code {
 	color: white;
 	padding: 1%;
 	border-radius: 10px;
-	width: max(400px,25%);
+	width: min(400px,90%);
 }
 
 .contentSquare:hover {
