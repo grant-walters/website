@@ -9,9 +9,9 @@ class NavBar extends React.Component {
 			);
 		});
 		return (
-			<nav className='navbar'>
+			<div className='navbar'>
 				{pages}
-			</nav>
+			</div>
 		);
 	}
 }
