@@ -2,10 +2,6 @@ import React from 'react';
 import Home from "./Pages/Home"
 
 class Page extends React.Component {
-	constructor(props) {
-		super(props);
-	}
-
 	render () {
 		switch(this.props.page) {
 			case "Home":
