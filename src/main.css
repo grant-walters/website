@@ -106,7 +106,7 @@ code {
 	color: white;
 	padding: 1%;
 	border-radius: 10px;
-	width: min(500px,90%);
+	width: min(max(400px,25%),90%);
 }
 
 .contentSquare:hover {
